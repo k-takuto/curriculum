@@ -32,7 +32,8 @@ public class Study {
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
          * Listインタフェース型の変数「shohinList」の2番目に追加された要素（"牛乳"）を取得し
-         * LinkedHashMapインターフェース型変数「shopMap」に「"牛乳" , 180」の要素として追加。
+         * LinkedHashMapインターフェース型変数「shopMap」に、キー「"牛乳"」、値「180」の要素として追加。
+         *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
         shopMap.put(shohinList.get(0), 125);
