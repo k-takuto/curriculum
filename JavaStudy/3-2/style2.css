@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+
+.blue-box {
+  width: 400px;
+  height: 100px;
+  background-color:#141f40;
+}
+
+.green-box {
+  width: 150px;
+  height: 250px;
+  background-color:#80bfa8;
+  float: left;
+}
+
+.midright {
+  width: 250px;
+  float: left;
+}
+
+.midright2 {
+  width: 150px;
+ float: left;
+}
+
+.yellow-box {
+  width: 150px;
+  height: 50px;
+  background-color:#dbd400;
+}
+
+.lightblue-box {
+  width: 150px;
+  height: 100px;
+  background-color:#0093b7;
+}
+
+.pink-box {
+  width: 100px;
+  height: 150px;
+  background-color:#ff9e6b;
+  float: right;
+}
+
+.red-box {
+  width: 250px;
+  height: 100px;
+  background-color:#8c2727;
+}
+
+.orange-box {
+  width: 400px;
+  height: 100px;
+  background-color:#d98d30;
+}
+
+
+/*ウィンドウ幅が最大767pxまでの場合に適用*/
+@media screen and (max-width: 767px) {
+
+.wapper {
+    width: 300px;
+}
+
+.blue-box {
+    width: 300px;
+}
+
+.green-box {
+    width: 100px;
+}
+
+.pink-box {
+  width: 75px;
+}
+
+.midright {
+  width: 200px;
+}
+
+.yellow-box {
+  width: 125px;
+}
+
+.lightblue-box {
+  width: 125px;
+}
+
+.midright2 {
+    width: 125px;
+}
+
+.red-box {
+    width: 200px;
+}
+
+.orange-box {
+    width: 300px;
+}
+
+}
+
+
+/*ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 479px) {
+
+.wrapper {
+    width: 150px;
+}
+    
+.blue-box {
+    width: 150px;
+}
+
+.green-box {
+    width: 150px;
+    height: 100px;
+    float: none;
+}
+
+.midright {
+    float: none;
+}
+
+.midright2 {
+    float: none;
+}
+
+.pink-box {
+    width: 150px;
+    height: 100px;
+    float: none;
+}
+
+.yellow-box {
+    width: 150px;
+}
+
+.lightblue-box {
+  width: 150px;
+}
+
+.red-box {
+    width: 150px;
+}
+
+.orange-box {
+    width: 150px;
+}
+
+
+}
