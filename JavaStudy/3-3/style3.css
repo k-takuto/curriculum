@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.blue-box {
+    height: 100px;
+    width: 400px;
+    padding: 20px 20px 20px 220px;
+    box-sizing: border-box;
+    background-color: #141f40;
+}
+
+.white-box {
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.purple-box {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+}
+
+.green-box {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float:left
+}
+
+.red-box {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+
+.orange-boxes {
+    width: 150px;
+    height: 170px;
+    margin: 40px 60px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orange-box {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #ff863f;
+    border: solid 5px #fff;
+}
+
+.yellow-box {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+
+/*ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 479px) {
+
+.wrapper {
+    width: 200px
+}
+
+.blue-box {
+    width: 200px;
+    height: 200px;
+    padding: 20px 70px;
+}
+
+.white-box {
+    width: 60px;
+    height: 160px;
+    flex-direction: column;
+}
+
+.green-box {
+    width: 200px;
+    height: 100px;
+}
+
+.red-box {
+    width: 200px;
+    height: 210px;
+}
+
+.orange-boxes {
+    margin: 20px 30px;
+    width: 140px;
+}
+
+.orange-box {
+    width: 140px
+}
+
+.yellow-box {
+    width: 200px;
+}
